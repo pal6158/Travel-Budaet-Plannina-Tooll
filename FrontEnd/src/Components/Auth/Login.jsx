@@ -86,7 +86,7 @@ function Login() {
   }, [msg, navigate]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col  min-h-screen bg-gray-50">
       <Navbar />
 
       {/* Message modal */}
@@ -123,7 +123,7 @@ function Login() {
 
       <main className="flex-grow flex items-center justify-center px-4 py-12">
         <div className="w-full max-w-md">
-          <div className="bg-white shadow-xl rounded-xl p-8">
+          <div className="bg-white mt-9 shadow-xl rounded-xl p-8">
             <div className="text-center mb-8">
               <h1 className="text-3xl font-bold text-gray-900">Welcome Back</h1>
               <p className="text-gray-600 mt-2">Sign in to continue to Travel Budget Planner</p>
@@ -200,7 +200,7 @@ function Login() {
               <button
                 type="submit"
                 disabled={isLoading}
-                className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-75 disabled:cursor-not-allowed"
+                className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-75 disabled:cursor-not-allowed"
               >
                 {isLoading ? (
                   <>

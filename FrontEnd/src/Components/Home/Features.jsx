@@ -8,7 +8,11 @@ function Features() {
   const features = [
     {
       icon: <Wallet className="h-8 w-8 text-teal-600 group-hover:text-white transition-colors duration-300" />,
-      title: "Expense Tracking",
+      title:(
+        <Link to="/expense-tracker" className="hover:underline text-lg font-semibold">
+          Expense Tracking
+        </Link>
+      ),
       description: "Log and categorize your travel expenses effortlessly with our intuitive interface."
     },
     {

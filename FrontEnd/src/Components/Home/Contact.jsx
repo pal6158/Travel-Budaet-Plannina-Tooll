@@ -40,7 +40,7 @@ const ContactSection = () => {
 
       <div className="max-w-6xl mx-auto px-4 py-16">
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mt-8 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Contact Us</h1>
           <div className="w-24 h-1 bg-teal-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

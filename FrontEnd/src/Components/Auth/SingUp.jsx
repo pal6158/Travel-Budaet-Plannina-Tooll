@@ -154,7 +154,7 @@ function SignUp() {
 
       <main className="flex-grow flex items-center justify-center px-4 py-12">
         <div className="w-full max-w-md">
-          <div className="bg-white shadow-xl rounded-xl p-8">
+          <div className="bg-white mt-9 shadow-xl rounded-xl p-8">
             <div className="text-center mb-8">
               <h1 className="text-3xl font-bold text-gray-900">Create Account</h1>
               <p className="text-gray-600 mt-2">Join Travel Budget Planner to start planning your next adventure</p>

@@ -5,12 +5,12 @@ import Footer from './Footer';
 
 const AboutUs = () => {
   return (
-    <div className="bg-White-50 min-h-screen">
+    <div className="bg-White-50  min-h-screen">
       <Navbar />
 
       <div className="max-w-6xl mx-auto px-4 py-16">
         {/* Hero Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mt-8 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Us</h1>
           <div className="w-24 h-1 bg-teal-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
